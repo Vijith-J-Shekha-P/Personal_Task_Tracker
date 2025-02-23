@@ -1,5 +1,5 @@
 export const baseURL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3000/api/";
+  'https://personal-task-tracker-backend.onrender.com || "http://localhost:3000/api/";
 export const tasksURL = `${baseURL}tasks`;
 export const userURL = `${baseURL}user`;
 export const loginURL = `${baseURL}user/login`;
